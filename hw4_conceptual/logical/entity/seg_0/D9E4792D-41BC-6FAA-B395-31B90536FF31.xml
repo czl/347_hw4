@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9E4792D-41BC-6FAA-B395-31B90536FF31" name="SIM_project">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 19:36:45 UTC</createdTime>
+<ownerDesignName>hw4_conceptual</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="project_id" id="A0DC94D7-BDA8-3DD9-6795-23BDAB571F16">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 19:36:57 UTC</createdTime>
+<ownerDesignName>hw4_conceptual</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="name" id="5735A160-04D8-2CF3-D83A-A5F7C8E77622">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 19:37:06 UTC</createdTime>
+<ownerDesignName>hw4_conceptual</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="dept_id" id="2A5E0AA0-AE3F-F481-B715-B355689F15A5">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 19:37:17 UTC</createdTime>
+<ownerDesignName>hw4_conceptual</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="8A347A59-ACE9-F1D0-5D06-F70C22137C90">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 19:43:08 UTC</createdTime>
+<generatorID>2921D001-8091-8CCE-D63D-3F32EE91B13C</generatorID>
+<ownerDesignName>hw4_conceptual</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B2046088-DA17-5C86-95B8-6D0029120B94</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9DC9083-BE6E-1677-09ED-5DB4E97EA0C7" name="SIM_project PK">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 19:37:05 UTC</createdTime>
+<ownerDesignName>hw4_conceptual</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A0DC94D7-BDA8-3DD9-6795-23BDAB571F16</newElementsIDs>
+<usedAttributes>
+<attributeRef>A0DC94D7-BDA8-3DD9-6795-23BDAB571F16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
