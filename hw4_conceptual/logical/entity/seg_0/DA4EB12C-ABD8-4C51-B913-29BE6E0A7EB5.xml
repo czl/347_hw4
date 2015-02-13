@@ -52,22 +52,10 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
-<Attribute name="emp_id" id="DCED0145-CEEC-545B-241A-C3FDA04C2537">
+<Attribute name="emp_id" id="0C0E6F54-92E1-7D1E-3987-0584C0BF3D78">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:39:55 UTC</createdTime>
-<ownerDesignName>hw4_conceptual</ownerDesignName>
-<engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
-<Attribute name="emp_id1" id="12AFC32C-3424-9F57-0BD9-3FA4FC286183">
-<createdBy>CL</createdBy>
-<createdTime>2015-02-13 20:40:28 UTC</createdTime>
-<generatorID>6C84A593-D5F6-F179-646D-F92B7E603361</generatorID>
+<createdTime>2015-02-13 20:46:15 UTC</createdTime>
+<generatorID>AF2FC5EF-885B-C8D8-808D-9645BA0BA346</generatorID>
 <ownerDesignName>hw4_conceptual</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>

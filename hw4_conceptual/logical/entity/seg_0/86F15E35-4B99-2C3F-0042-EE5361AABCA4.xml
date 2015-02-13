@@ -42,10 +42,10 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
-<Attribute name="dept_id" id="5265B83C-0F44-54EC-CAD8-B1C808CD8C08">
+<Attribute name="dept_id" id="EC1B88B5-2E3D-D1C3-2494-C32065F437D7">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 20:41:23 UTC</createdTime>
-<generatorID>7A487BDB-4AB4-A256-F544-4172556343F3</generatorID>
+<createdTime>2015-02-13 20:46:23 UTC</createdTime>
+<generatorID>F28F106C-45E6-45E4-45FE-3B47D2E9C3BB</generatorID>
 <ownerDesignName>hw4_conceptual</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>

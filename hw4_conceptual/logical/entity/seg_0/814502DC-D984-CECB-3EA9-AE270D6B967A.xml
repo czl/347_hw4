@@ -41,10 +41,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="dept_id" id="62A17E9A-A53E-7C07-A3F0-FA6C605BB4AC">
+<Attribute name="dept_id" id="B4B73210-1123-32B3-9EDF-84F3EA3BFE43">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 20:40:31 UTC</createdTime>
-<generatorID>6C84A593-D5F6-F179-646D-F92B7E603361</generatorID>
+<createdTime>2015-02-13 20:46:18 UTC</createdTime>
+<generatorID>AF2FC5EF-885B-C8D8-808D-9645BA0BA346</generatorID>
 <ownerDesignName>hw4_conceptual</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>

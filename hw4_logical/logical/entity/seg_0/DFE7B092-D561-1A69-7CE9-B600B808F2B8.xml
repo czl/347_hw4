@@ -77,6 +77,44 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
+<Attribute name="title" id="132E04F7-0A03-64CF-23E7-79A52CDB57CB">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 20:47:01 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="80BC07CC-DE10-3501-2FF1-11A8887315FC">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 20:47:12 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="BD25E16D-8E5F-27B0-CCA7-B3F267DCE312">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 20:47:24 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B598BDD6-B0FA-A04D-97A4-0D8DE6548073" name="SIM_emp PK">
