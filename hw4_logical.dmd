@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="hw4_logical" id="EC00EFB2-94F6-843C-19DA-97BC3B560C54" version="3.5">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 19:21:43 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EC00EFB2-94F6-843C-19DA-97BC3B560C54</designId>
+</OSDM_Design>
