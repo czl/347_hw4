@@ -64,10 +64,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="emp_id1" id="4924748B-9818-4A07-D5B6-3F21F50E0DEC">
+<Attribute name="emp_id1" id="12AFC32C-3424-9F57-0BD9-3FA4FC286183">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:42:38 UTC</createdTime>
-<generatorID>E6334C0C-2A8D-3F6E-928E-7BD8C6D456F7</generatorID>
+<createdTime>2015-02-13 20:40:28 UTC</createdTime>
+<generatorID>6C84A593-D5F6-F179-646D-F92B7E603361</generatorID>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>

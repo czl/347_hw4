@@ -41,22 +41,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="dept_id" id="9F09B899-D005-BA73-3E1B-2047B425E122">
+<Attribute name="dept_id" id="62A17E9A-A53E-7C07-A3F0-FA6C605BB4AC">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:36:25 UTC</createdTime>
-<ownerDesignName>hw4_conceptual</ownerDesignName>
-<engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
-<Attribute name="dept_id1" id="287EE6D1-9B04-43CC-5787-D60B25660A57">
-<createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:42:41 UTC</createdTime>
-<generatorID>E6334C0C-2A8D-3F6E-928E-7BD8C6D456F7</generatorID>
+<createdTime>2015-02-13 20:40:31 UTC</createdTime>
+<generatorID>6C84A593-D5F6-F179-646D-F92B7E603361</generatorID>
 <ownerDesignName>hw4_conceptual</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
