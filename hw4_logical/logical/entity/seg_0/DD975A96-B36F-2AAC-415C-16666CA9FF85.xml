@@ -4,7 +4,7 @@
 <createdTime>2015-02-13 19:25:17 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2015-02-13 19:25:53 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,7 +31,7 @@
 <createdTime>2015-02-13 19:26:02 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,7 +44,7 @@
 <createdTime>2015-02-13 19:26:12 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,7 +56,7 @@
 <createdTime>2015-02-13 19:26:22 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,7 +69,7 @@
 <createdTime>2015-02-13 19:27:19 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -81,7 +81,7 @@
 <createdTime>2015-02-13 19:27:28 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,7 +94,7 @@
 <createdTime>2015-02-13 19:27:38 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -107,7 +107,7 @@
 <createdTime>2015-02-13 19:27:48 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -120,7 +120,7 @@
 <createdTime>2015-02-13 19:28:14 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -132,7 +132,7 @@
 <createdTime>2015-02-16 23:15:36 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -144,7 +144,7 @@
 <createdTime>2015-02-16 23:15:45 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -156,7 +156,7 @@
 <createdTime>2015-02-16 23:15:52 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -169,7 +169,7 @@
 <createdTime>2015-02-16 23:16:01 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -182,7 +182,7 @@
 <createdTime>2015-02-16 23:16:10 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -195,7 +195,7 @@
 <createdTime>2015-02-16 23:16:25 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -208,13 +208,12 @@
 <createdTime>2015-02-16 23:16:34 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
 <Attribute name="dept_id" id="B1D9A531-F7D3-3E7B-66B5-0D8669B6031B">
 <createdBy>CL</createdBy>
@@ -222,7 +221,7 @@
 <generatorID>C57D394F-DE0F-3289-074F-920B7B7AD53C</generatorID>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>B2046088-DA17-5C86-95B8-6D0029120B94</referedAttribute>
@@ -236,7 +235,7 @@
 <generatorID>24AF0F93-CDB0-BA29-FCF5-4CC9E47E7780</generatorID>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>B2046088-DA17-5C86-95B8-6D0029120B94</referedAttribute>
@@ -251,7 +250,7 @@
 <createdTime>2015-02-13 19:26:00 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+<item key="477305B3-BD0B-EDBB-AD6D-A7F1E817E37C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>592FBF9D-3327-7EA4-9ED0-DAEC58F71B70</newElementsIDs>

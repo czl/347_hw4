@@ -1,0 +1,274 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7B870F6-51CE-F5B6-3A1B-AD44C8EA2716" name="SIM_Person">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>DD975A96-B36F-2AAC-415C-16666CA9FF85</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="7DC372B0-E34C-95C9-4B62-D4EDF02C24B8">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>592FBF9D-3327-7EA4-9ED0-DAEC58F71B70</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B138AA08-056D-61AF-EF90-27FC6E5F3BF8">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>A43F20F5-2CD2-176C-EFF8-0549DED0EC11</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="62A08F60-BD61-8AC0-C93A-D7FB9BF6F20A">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>63B73D36-DF72-F8C9-F7E9-E88945976E9C</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="8AF21614-3523-0189-20D9-A4BB52B2539C">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>DE6F2757-6480-B26F-43B6-E5517BF6E956</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="BEE28B62-DB2E-4C10-E8EB-3FB8D4F21CAD">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>063D6F74-4D57-53D3-6B1B-E7A15D45FA55</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="ED476B46-D914-2431-EB4A-5644A4CCB87D">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>8C4E0259-920D-9245-5263-E5A920C5F866</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="C8BCD5BC-75D0-B61F-6140-62CC1C5C6B93">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>A26CCA58-A609-9195-E91F-C192FEE39CCC</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="6B62C2CC-6822-2707-C090-C52EA4956DEA">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>1404A25E-0F55-5ACA-5C24-87162300B2E2</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="5AC82A18-F2DF-7117-D029-5F3C1643AC38">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>92889B8C-9F44-AC49-4696-2BF868EA2C21</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="94D61D01-57F9-1B1C-D244-E521AA877D8B">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>10E614DD-922C-AD4C-C92E-C11CE73279CE</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="7AD13FFC-0DDE-3F0C-9361-7DA35CE959D2">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>F054BEA7-BDE8-06E9-209E-D13AD4E34DE1</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="27ACE9A8-B250-7C82-5C19-6919A15F6F30">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>7C9F3EB3-E175-C74D-8137-DE6AA162A087</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_type" id="02E8E578-DEFB-55EB-A684-04D7689F6251">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>00D1D77B-8EBF-67EF-334F-367E24EBCCB3</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="E45450CE-C230-48D5-094A-9FB0469A0079">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>93BB777A-4443-C2DB-1216-2F12F5F831C0</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="7F41C42B-4FD0-29C7-E9A9-8BEB0F1C1494">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>7191BE72-5747-F04D-0D34-C906DA1F33EE</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="BCD3DB2F-C312-62AF-6186-E2CE280C647D">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>0C5803F1-5F2B-FDF6-52D1-7176968C52E9</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id" id="750C09E9-3D13-B8E6-E966-3DC826A77E69">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>B1D9A531-F7D3-3E7B-66B5-0D8669B6031B</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>83E00B3C-438C-A586-1F86-51A599EF117C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C57B318A-E658-7874-5D03-14002D6417DA" referredColumn="83E00B3C-438C-A586-1F86-51A599EF117C"/>
+</associations>
+</Column>
+<Column name="SIM_dept_dept_id1" id="60B5E971-E047-5FC6-1972-FA38A0A16809">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>531BC574-E1A8-095D-BE8E-DD1DAA26EEC6</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>83E00B3C-438C-A586-1F86-51A599EF117C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="820FFBC8-69B1-23DE-02AE-14974CE08CBA" referredColumn="83E00B3C-438C-A586-1F86-51A599EF117C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30E2660D-2346-0DE7-01EF-3A8702F893F3" name="SIM_Person_PK">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>ED703A54-27FF-D011-9B2F-34EA33E59B19</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DC372B0-E34C-95C9-4B62-D4EDF02C24B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFAE865F-A495-DDBD-0C10-BACBCB8BA7D4" name="SIM_Person__IDX">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>24AF0F93-CDB0-BA29-FCF5-4CC9E47E7780</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="60B5E971-E047-5FC6-1972-FA38A0A16809"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CB866C0-CB96-537F-95B0-5F0D4B3A4D6A" name="SIM_Person_SIM_dept_FK">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>C57D394F-DE0F-3289-074F-920B7B7AD53C</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="750C09E9-3D13-B8E6-E966-3DC826A77E69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D636B86A-7260-E55F-E1D6-004BF752ABCE" name="SIM_Person_SIM_dept_FKv1">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:32:54 UTC</createdTime>
+<generatorID>24AF0F93-CDB0-BA29-FCF5-4CC9E47E7780</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60B5E971-E047-5FC6-1972-FA38A0A16809"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

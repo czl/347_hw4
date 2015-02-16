@@ -34,8 +34,8 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="582" y="325"/>
-<point x="582" y="431"/>
+<point x="614" y="325"/>
+<point x="619" y="431"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="86D939CE-DCFB-BBA4-7C12-DCEE6B52F737" otype="Relation" vid_source="8E3BC5D4-F99F-5B82-E819-4470AD54BB65" vid_target="557BF6A5-5714-47E2-6F84-A94B7FBC6BB5">
