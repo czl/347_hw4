@@ -1,18 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="68AE59F2-7366-FE34-0F43-A21ADA084324">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="r9" directorySegmentName="seg_0" id="86D939CE-DCFB-BBA4-7C12-DCEE6B52F737">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:32:18 UTC</createdTime>
+<createdTime>2015-02-16 23:22:55 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
 </engineerTo>
+<sourcePk>ED703A54-27FF-D011-9B2F-34EA33E59B19</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>Super Type</nameOnSource>
-<nameOnTarget>Sub Type</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
 <sourceEntity>DD975A96-B36F-2AAC-415C-16666CA9FF85</sourceEntity>
-<targetEntity>DFE7B092-D561-1A69-7CE9-B600B808F2B8</targetEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B134010B-8D96-706C-A91B-3A1383DAD4AF</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

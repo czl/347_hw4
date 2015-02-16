@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="814502DC-D984-CECB-3EA9-AE270D6B967A" name="SIM_mgmt">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B134010B-8D96-706C-A91B-3A1383DAD4AF" name="SIM_p2p">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:35:49 UTC</createdTime>
+<createdTime>2015-02-16 23:17:40 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
@@ -11,28 +11,13 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>DFE7B092-D561-1A69-7CE9-B600B808F2B8</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="dept_id" id="673AB6B7-AC84-1618-133F-D83504469110">
+<Attribute name="person_proj" id="8B952D86-462F-8F36-7025-7AC0AC20FE1E">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 20:45:18 UTC</createdTime>
-<generatorID>87B0361D-989B-95CF-2FF3-0E2152471DEA</generatorID>
-<ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>B2046088-DA17-5C86-95B8-6D0029120B94</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
-<Attribute name="mgmt_id" id="0A9B53BB-F3CF-21E5-2A6B-756F7B0828EA">
-<createdBy>CL</createdBy>
-<createdTime>2015-02-13 20:53:45 UTC</createdTime>
+<createdTime>2015-02-16 23:18:11 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
@@ -41,32 +26,46 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="emp_id" id="EE84068B-2FF7-5345-0DE5-91C9019BB925">
+<Attribute name="person_id" id="60FD2464-98F7-A340-8726-4EC3B56F019D">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 20:57:02 UTC</createdTime>
-<generatorID>BDDF1B91-1A80-22E7-DA7E-942E55D05D8A</generatorID>
+<createdTime>2015-02-16 23:22:55 UTC</createdTime>
+<generatorID>86D939CE-DCFB-BBA4-7C12-DCEE6B52F737</generatorID>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>4B7C5F5F-B5E7-FAD6-63F4-725D3B6D7349</referedAttribute>
+<referedAttribute>592FBF9D-3327-7EA4-9ED0-DAEC58F71B70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="project_id" id="E6325FB9-BBEA-065F-25C1-DCDF9E46944B">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-16 23:23:10 UTC</createdTime>
+<generatorID>870E18D5-6D0B-A908-C865-70D5DB580BF0</generatorID>
+<ownerDesignName>hw4_logical</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A0DC94D7-BDA8-3DD9-6795-23BDAB571F16</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6A1CE35F-C0B8-0CC1-04BC-5715450FD6CC" name="{entity} PK">
+<identifier id="52BFA36B-DE85-E6D7-6665-D2BB510A6809" name="{entity} PK">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 20:54:47 UTC</createdTime>
+<createdTime>2015-02-16 23:19:45 UTC</createdTime>
 <ownerDesignName>hw4_logical</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0A9B53BB-F3CF-21E5-2A6B-756F7B0828EA</attributeRef>
+<attributeRef>8B952D86-462F-8F36-7025-7AC0AC20FE1E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

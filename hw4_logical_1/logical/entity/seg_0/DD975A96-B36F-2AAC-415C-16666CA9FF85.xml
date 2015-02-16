@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DFE7B092-D561-1A69-7CE9-B600B808F2B8" name="SIM_emp">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD975A96-B36F-2AAC-415C-16666CA9FF85" name="SIM_Person">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:30:02 UTC</createdTime>
-<ownerDesignName>hw4_logical</ownerDesignName>
+<createdTime>2015-02-13 19:25:17 UTC</createdTime>
+<ownerDesignName>hw4_logical_1</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
 </engineerTo>
@@ -11,15 +11,14 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>DD975A96-B36F-2AAC-415C-16666CA9FF85</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="emp_id" id="4B7C5F5F-B5E7-FAD6-63F4-725D3B6D7349">
+<Attribute name="person_id" id="592FBF9D-3327-7EA4-9ED0-DAEC58F71B70">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:30:18 UTC</createdTime>
-<ownerDesignName>hw4_logical</ownerDesignName>
+<createdTime>2015-02-13 19:25:53 UTC</createdTime>
+<ownerDesignName>hw4_logical_1</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
 </engineerTo>
@@ -27,10 +26,48 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 </Attribute>
-<Attribute name="hire_date" id="7DE81501-FD08-F6A0-E195-E066962B23D5">
+<Attribute name="name" id="A43F20F5-2CD2-176C-EFF8-0549DED0EC11">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:30:27 UTC</createdTime>
-<ownerDesignName>hw4_logical</ownerDesignName>
+<createdTime>2015-02-13 19:26:02 UTC</createdTime>
+<ownerDesignName>hw4_logical_1</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="63B73D36-DF72-F8C9-F7E9-E88945976E9C">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 19:26:12 UTC</createdTime>
+<ownerDesignName>hw4_logical_1</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="DE6F2757-6480-B26F-43B6-E5517BF6E956">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 19:26:22 UTC</createdTime>
+<ownerDesignName>hw4_logical_1</ownerDesignName>
+<engineerTo>
+<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="063D6F74-4D57-53D3-6B1B-E7A15D45FA55">
+<createdBy>CL</createdBy>
+<createdTime>2015-02-13 19:27:19 UTC</createdTime>
+<ownerDesignName>hw4_logical_1</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
 </engineerTo>
@@ -39,22 +76,10 @@
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 </Attribute>
-<Attribute name="salary" id="7C2F6307-709A-E182-6565-D17CE96C65BF">
+<Attribute name="address" id="8C4E0259-920D-9245-5263-E5A920C5F866">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:30:33 UTC</createdTime>
-<ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-</Attribute>
-<Attribute name="status" id="FD8129B3-7CDA-FE4D-5D07-0BC9CD0B581A">
-<createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:30:39 UTC</createdTime>
-<ownerDesignName>hw4_logical</ownerDesignName>
+<createdTime>2015-02-13 19:27:28 UTC</createdTime>
+<ownerDesignName>hw4_logical_1</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
 </engineerTo>
@@ -64,10 +89,10 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
-<Attribute name="emp_type" id="EE321830-05F9-DD72-C273-54A356C24BF4">
+<Attribute name="city" id="A26CCA58-A609-9195-E91F-C192FEE39CCC">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 20:37:05 UTC</createdTime>
-<ownerDesignName>hw4_logical</ownerDesignName>
+<createdTime>2015-02-13 19:27:38 UTC</createdTime>
+<ownerDesignName>hw4_logical_1</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
 </engineerTo>
@@ -77,10 +102,10 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
-<Attribute name="title" id="132E04F7-0A03-64CF-23E7-79A52CDB57CB">
+<Attribute name="state" id="1404A25E-0F55-5ACA-5C24-87162300B2E2">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 20:47:01 UTC</createdTime>
-<ownerDesignName>hw4_logical</ownerDesignName>
+<createdTime>2015-02-13 19:27:48 UTC</createdTime>
+<ownerDesignName>hw4_logical_1</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
 </engineerTo>
@@ -90,23 +115,10 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>255</dataTypeSize>
 </Attribute>
-<Attribute name="rating" id="80BC07CC-DE10-3501-2FF1-11A8887315FC">
+<Attribute name="zip" id="92889B8C-9F44-AC49-4696-2BF868EA2C21">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 20:47:12 UTC</createdTime>
-<ownerDesignName>hw4_logical</ownerDesignName>
-<engineerTo>
-<item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-</Attribute>
-<Attribute name="bonus" id="BD25E16D-8E5F-27B0-CCA7-B3F267DCE312">
-<createdBy>CL</createdBy>
-<createdTime>2015-02-13 20:47:24 UTC</createdTime>
-<ownerDesignName>hw4_logical</ownerDesignName>
+<createdTime>2015-02-13 19:28:14 UTC</createdTime>
+<ownerDesignName>hw4_logical_1</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
 </engineerTo>
@@ -117,17 +129,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="B598BDD6-B0FA-A04D-97A4-0D8DE6548073" name="SIM_emp PK">
+<identifier id="ED703A54-27FF-D011-9B2F-34EA33E59B19" name="SIM_Person PK">
 <createdBy>CL</createdBy>
-<createdTime>2015-02-13 19:30:26 UTC</createdTime>
-<ownerDesignName>hw4_logical</ownerDesignName>
+<createdTime>2015-02-13 19:26:00 UTC</createdTime>
+<ownerDesignName>hw4_logical_1</ownerDesignName>
 <engineerTo>
 <item key="14948E44-5B22-F5FF-A78B-EDD22F483961" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>4B7C5F5F-B5E7-FAD6-63F4-725D3B6D7349</newElementsIDs>
+<newElementsIDs>592FBF9D-3327-7EA4-9ED0-DAEC58F71B70</newElementsIDs>
 <usedAttributes>
-<attributeRef>4B7C5F5F-B5E7-FAD6-63F4-725D3B6D7349</attributeRef>
+<attributeRef>592FBF9D-3327-7EA4-9ED0-DAEC58F71B70</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
