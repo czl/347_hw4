@@ -1,0 +1,94 @@
+drop view sim_proj_emp ;
+drop view sim_manager ;
+
+create view proj_emp as
+SELECT PERSON_ID, NAME,SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP, HIRE_DATE, SALARY, STATUS, EMP_TYPE, TITLE, BONUS, DEPT_ID 
+FROM SIM_Person
+WHERE TYPE = 'proj_emp' ;
+
+create or replace TRIGGER proj_emp_trigger
+     INSTEAD OF insert ON sim_proj_emp
+     FOR EACH ROW
+BEGIN
+     insert into SIM_Person(
+        PERSON_ID,
+        NAME,
+		SSNUM, 
+		GENDER, 
+		BIRTH_DATE, 
+		ADDRESS, 
+		CITY, 
+		STATE, 
+		ZIP, 
+		HIRE_DATE, 
+		SALARY, 
+		STATUS, 
+		EMP_TYPE, 
+		TITLE, 
+		BONUS, 
+		DEPT_ID )
+     VALUES (
+        :new.PERSON_ID,
+        :new.NAME,
+		:new.SSNUM, 
+		:new.GENDER, 
+		:new.BIRTH_DATE, 
+		:new.ADDRESS, 
+		:new.CITY, 
+		:new.STATE, 
+		:new.ZIP, 
+		:new.HIRE_DATE, 
+		:new.SALARY, 
+		:new.STATUS, 
+		'proj_emp', 
+		:new.TITLE, 
+		:new.BONUS, 
+		:new.DEPT_ID ) ;
+END;
+/
+
+create view manager as
+SELECT PERSON_ID, NAME,SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP, HIRE_DATE, SALARY, STATUS, EMP_TYPE, TITLE, BONUS, DEPT_ID1
+FROM SIM_Person
+WHERE TYPE = 'manager' ;
+
+create or replace TRIGGER manager_trigger
+     INSTEAD OF insert ON sim_manager
+     FOR EACH ROW
+BEGIN
+     insert into SIM_Person(
+        PERSON_ID, 
+		NAME,
+		SSNUM, 
+		GENDER, 
+		BIRTH_DATE, 
+		ADDRESS, 
+		CITY, 
+		STATE, 
+		ZIP, 
+		HIRE_DATE, 
+		SALARY, 
+		STATUS, 
+		EMP_TYPE, 
+		TITLE, 
+		BONUS, 
+		DEPT_ID1)
+     VALUES (
+        :new.PERSON_ID,
+        :new.NAME,
+		:new.SSNUM, 
+		:new.GENDER, 
+		:new.BIRTH_DATE, 
+		:new.ADDRESS, 
+		:new.CITY, 
+		:new.STATE, 
+		:new.ZIP, 
+		:new.HIRE_DATE, 
+		:new.SALARY, 
+		:new.STATUS, 
+		'manager', 
+		:new.TITLE, 
+		:new.BONUS, 
+		:new.DEPT_ID1 ) ;
+END;
+/
