@@ -27,7 +27,7 @@ prompt APPLICATION 10034 - HW4
 -- Application Export:
 --   Application:     10034
 --   Name:            HW4
---   Date and Time:   21:52 Tuesday February 17, 2015
+--   Date and Time:   03:52 Wednesday February 18, 2015
 --   Exported By:     CLEMENSLEE@UTEXAS.EDU
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -111,7 +111,7 @@ wwv_flow_api.create_flow(
 ,p_rejoin_existing_sessions=>'N'
 ,p_csv_encoding=>'Y'
 ,p_last_updated_by=>'CLEMENSLEE@UTEXAS.EDU'
-,p_last_upd_yyyymmddhh24miss=>'20150217214313'
+,p_last_upd_yyyymmddhh24miss=>'20150218033928'
 ,p_ui_type_name => null
 );
 end;
@@ -7520,7 +7520,7 @@ wwv_flow_api.create_page(
 ,p_cache_mode=>'NOCACHE'
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'CLEMENSLEE@UTEXAS.EDU'
-,p_last_upd_yyyymmddhh24miss=>'20150217205344'
+,p_last_upd_yyyymmddhh24miss=>'20150218033928'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(571436811399252717)
@@ -7597,7 +7597,8 @@ wwv_flow_api.create_page_plug(
 '       a1.UPDATED_BY',
 'from SIM_PERSON a1',
 'JOIN SIM_DEPT b1',
-'ON (SIM_DEPT_DEPT_ID1 = DEPT_ID)'))
+'ON (SIM_DEPT_DEPT_ID1 = DEPT_ID)',
+'      '))
 ,p_plug_source_type=>'NATIVE_IR'
 ,p_plug_query_row_template=>1
 ,p_plug_query_show_nulls_as=>' - '
@@ -7814,7 +7815,7 @@ wwv_flow_api.create_worksheet_column(
 ,p_tz_dependent=>'N'
 );
 wwv_flow_api.create_worksheet_column(
- p_id=>wwv_flow_api.id(594201407773636707)
+ p_id=>wwv_flow_api.id(612065692549080093)
 ,p_db_column_name=>'DEPARTMENT'
 ,p_display_order=>24
 ,p_column_identifier=>'X'
@@ -8855,7 +8856,7 @@ wwv_flow_api.create_page(
 ,p_cache_timeout_seconds=>21600
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'CLEMENSLEE@UTEXAS.EDU'
-,p_last_upd_yyyymmddhh24miss=>'20150217213846'
+,p_last_upd_yyyymmddhh24miss=>'20150218033157'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(573568999712501547)
@@ -9222,6 +9223,7 @@ wwv_flow_api.create_page_item(
 wwv_flow_api.create_page_item(
  p_id=>wwv_flow_api.id(573607227268501555)
 ,p_name=>'P7_RATING'
+,p_is_required=>true
 ,p_item_sequence=>130
 ,p_item_plug_id=>wwv_flow_api.id(573568999712501547)
 ,p_use_cache_before_default=>'NO'
@@ -9376,7 +9378,7 @@ wwv_flow_api.create_page(
 ,p_cache_timeout_seconds=>21600
 ,p_help_text=>'No help is available for this page.'
 ,p_last_updated_by=>'CLEMENSLEE@UTEXAS.EDU'
-,p_last_upd_yyyymmddhh24miss=>'20150217214313'
+,p_last_upd_yyyymmddhh24miss=>'20150218033222'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(573570234371514142)
@@ -9765,6 +9767,7 @@ wwv_flow_api.create_page_item(
 wwv_flow_api.create_page_item(
  p_id=>wwv_flow_api.id(573579103864514258)
 ,p_name=>'P8_BONUS'
+,p_is_required=>true
 ,p_item_sequence=>140
 ,p_item_plug_id=>wwv_flow_api.id(573570234371514142)
 ,p_use_cache_before_default=>'NO'
